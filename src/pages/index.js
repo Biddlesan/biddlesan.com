@@ -20,7 +20,7 @@ const IndexPage = () => (
       </Col>
     </Row>
     <Row className={["py-5"].join(" ")}>
-      <Col>
+      <Col xs={{ span: 12 }} sm={{ span: 6 }}>
         <div className={["border-bottom", "mb-3"].join(" ")}>
           <img
             className={["d-block", "mx-auto"].join(" ")}
@@ -57,7 +57,7 @@ const IndexPage = () => (
           </BulletListItem>
         </ul>
       </Col>
-      <Col>
+      <Col xs={{ span: 12 }} sm={{ span: 6 }}>
         <div className={["border-bottom", "mb-3"].join(" ")}>
           <img
             className={["d-block", "mx-auto"].join(" ")}
