@@ -1,12 +1,22 @@
 module.exports = {
   siteMetadata: {
-    title: `Biddlesan Website`,
-    description: `A place where I put stuff about what I make and I talk about what I do.`,
+    title: ``,
+    description: ``,
     author: `@biddlesan`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          "Charm",
+          `Kalam:300,400,700`, // you can also specify font weights and styles
+        ],
+        display: "swap",
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {

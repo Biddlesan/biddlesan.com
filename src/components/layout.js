@@ -8,8 +8,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Container from "react-bootstrap/Container";
-import "./layout.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./layout.css";
 
 const Layout = ({ children }) => {
   return (
